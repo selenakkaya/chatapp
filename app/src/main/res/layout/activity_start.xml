@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat_app"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/message_image_layout"
+        android:layout_width="136dp"
+        android:layout_height="122dp"
+        android:layout_toEndOf="@+id/show_message"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:id="@+id/login"
+        android:text="LOGIN"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:id="@+id/register"
+        android:text="@string/register"/>
+
+</LinearLayout>

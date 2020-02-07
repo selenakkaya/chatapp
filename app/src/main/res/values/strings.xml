@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SChat</string>
+    <string name="forgot_you_password">Forgot you password</string>
+    <string name="enter_e_mail">Enter E mail</string>
+    <string name="password">Password</string>
+    <string name="enter_a_username">enter a username</string>
+    <string name="create_a_new_account">create a new account</string>
+    <string name="register">register</string>
+    <string name="chat_app">Chat App</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="search">Search</string>
+    <string name="profile">PROFILE</string>
+
+</resources>
